@@ -1,6 +1,8 @@
 "use client";
 
 import Chart from "@/components/Chart";
+import PageViews from "@/components/Datas"
+
 import { BarList, Card, Flex, Grid, Metric, Text, Title } from "@tremor/react";
 
 const website_traffic = [

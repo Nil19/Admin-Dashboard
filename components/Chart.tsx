@@ -16,7 +16,17 @@ const data = [
   {
     Month: "Mar 24",
     Sales: 3890,
-    Profit: 2980,
+    Profit: 3430,
+  },
+  {
+    Month: "Apr 24",
+    Sales: 5250,
+    Profit: 4790,
+  },
+  {
+    Month: "May 24",
+    Sales: 3970,
+    Profit: 3510,
   },
 ];
 
