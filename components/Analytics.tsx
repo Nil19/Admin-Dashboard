@@ -1,7 +1,7 @@
 "use client";
 
 import Chart from "@/components/Chart";
-import PageViews from "@/components/Datas"
+import Views from "@/components/Views";
 
 import { BarList, Card, Flex, Grid, Metric, Text, Title } from "@tremor/react";
 

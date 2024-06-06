@@ -2,7 +2,7 @@
 
 import { Card, List, ListItem, Title } from '@tremor/react';
 
-export default function PageViews() {
+export default function Views() {
   const cities = [
     {
       city: 'Athens',
@@ -27,7 +27,7 @@ export default function PageViews() {
   ];
   return (
     <Card className="mx-auto max-w-md">
-      <h3 className="text-tremor-content-strong dark:text-dark-tremor-content-strong font-medium">Tremor's Hometowns</h3>
+      <Title>Tremor's Hometowns</Title>
       <List className="mt-2">
         {cities.map((item) => (
           <ListItem key={item.city}>

@@ -40,7 +40,7 @@ export default function Chart() {
         data={data}
         categories={["Sales", "Profit"]}
         index="Month"
-        colors={["indigo", "fuchsia"]}
+        colors={["emerald", "sky"]}
         valueFormatter={(number: number) =>
           `£ ${Intl.NumberFormat("us").format(number).toString()}`
         }
